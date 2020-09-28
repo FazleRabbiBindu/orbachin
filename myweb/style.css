@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+}
+body
+{
+    margin: 8;
+    padding: 20;
+    /* background-image: url(https://www.w3schools.com/w3css/img_lights.jpg); */
+    background-color: #1ABC9C;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+#container
+{
+    width: 400px;
+    padding: 40px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    background: #333333;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-sizing: rgba(0, 0, 0, .5);
+}
+
+#container h2
+{
+    padding: 0;
+    margin: 0 0 35px;
+    color: #1ABC9C;
+    text-align: center;
+}
+
+#container .title
+{
+    width: 200px;
+    padding-top: 20px;
+    padding-bottom: 1px;
+    
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    position: relative;
+    background: rgba(255, 255, 255, 0.89);
+    box-sizing: border-box;
+    border-radius: 8px;
+    /* border-block-end-color: aliceblue; */
+}
+#container .input
+{
+    position: relative;
+    padding-bottom: 10px;
+}
+#container .input input:hover
+{
+    background: white;
+    color: black;
+}
+#container .input input::placeholder
+{
+    color: white;
+}
+
+#container .input input
+{
+    color: rgb(255, 255, 255);
+    border: none;
+    outline: none;
+    border: 1px solid white;
+    background: transparent;
+    border-radius: 8px;
+    width: 95%;
+    padding: 10px;
+    margin: 5px 0;
+}
+#container a
+{
+    text-decoration: none;
+    color :white;
+    font-size: small;
+}
+#container .input label
+{
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container a:hover
+{
+    text-decoration: none;
+    color :rgb(199, 199, 199);
+    font-style: normal;
+    font-size: small;
+}
+#container .button input:hover
+{
+    background :#16a588;
+    font-size: larger;
+}
+#container .button input
+{
+    width: 200px;
+    height: 50px;
+    margin: 30px 0px 0px 0px;
+    padding: 10px;
+    border:1px solid hsl(0, 0%, 100%);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    position: relative;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background : #1ABC9C;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+
+}
